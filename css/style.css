@@ -1,0 +1,92 @@
+/* common css part start */
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+:root {
+  --main_Color: #00acf1;
+  --tittle_Color: #444444;
+  --black_Color: #000000;
+  --white_Color: #ffffff;
+  --raleway: "Raleway", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --bold: 700;
+  --semiBold: 600;
+  --meduim: 500;
+  --normal: 400;
+  --light: 300;
+}
+/* common css part end */
+/* bannar part css area start */
+#bannar {
+  background: url(../images/bannar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.bannar_text p {
+  font-family: var(--raleway);
+  font-family: var(--normal);
+  color: var(--tittle_Color);
+  font-size: 48px;
+  padding-bottom: 14px;
+  transition: 0.4s ease-out;
+}
+.bannar_text h1 {
+  font-family: var(--raleway);
+  font-family: var(--semiBold);
+  color: var(--tittle_Color);
+  font-size: 104px;
+  padding-top: 25px;
+  padding-bottom: 38px;
+  transition: 0.4s ease-out;
+}
+.bannar_text button {
+  font-family: var(--raleway);
+  font-family: var(--semiBold);
+  color: var(--white_Color);
+  font-size: 20px;
+  background-color: var(--main_Color);
+  width: 179px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.4s ease-out;
+}
+.bannar_img img {
+  width: 100%;
+}
+.bannar_skill {
+  position: absolute;
+  top: 60%;
+  left: -5%;
+  transform: rotate(82deg);
+  width: 100%;
+  text-align: center;
+}
+/* banner-css-end */
